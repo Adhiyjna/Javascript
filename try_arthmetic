@@ -1,0 +1,73 @@
+// try increment
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 10;
+
+x+= 5;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+
+//try decrement
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 10;
+
+x-= 5;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+
+// multiplying
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 10;
+
+x*= 5;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+
+// division
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 10;
+
+x/=5;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+
+
+
