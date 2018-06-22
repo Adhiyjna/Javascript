@@ -1,0 +1,69 @@
+//play with strings.....
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+
+var txt = "Hello World!";
+document.getElementById("demo").innerHTML=txt;
+
+</script>
+
+</body>
+</html>
+
+// dispplay the txt
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+
+var txt = "Prabhat Sharma";
+document.getElementById("demo").innerHTML=txt;
+</script>
+
+</body>
+</html>
+
+//using break spaces
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+document.getElementById("demo").innerHTML = "We are \"Vikings\"."; 
+</script>
+
+</body>
+</html>
+
+//concat of strings
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var str1 = "Hello ";
+var str2 = "World!";
+
+document.getElementById("demo").innerHTML=str1+str2;
+</script>
+
+</body>
+</html>
+
+
+
