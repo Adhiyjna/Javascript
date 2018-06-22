@@ -1,0 +1,25 @@
+//local variable
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Scope</h2>
+
+<p>The variable carName belongs to myFunction().</p>
+
+<p id="demo"></p>
+
+<script>
+
+function myfunction()
+{
+document.getElementById("demo").innerHTML="my name  is khan";
+}
+myfunction();
+</script>
+
+</body>
+</html>
+
+
