@@ -1,0 +1,65 @@
+//using pop
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple"];
+fruits.pop();
+document.getElementById("demo").innerHTML = fruits;
+</script>
+
+</body>
+</html>
+
+//using push
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple"];
+fruits.push("Kiwi");
+document.getElementById("demo").innerHTML = fruits;
+</script>
+
+</body>
+</html>
+
+//usingsplice
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.splice(1, 2);
+document.getElementById("demo").innerHTML = fruits;
+</script>
+
+</body>
+</html>
+
+//concat
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var girls = ["Cecilie", "Lone"];
+var boys = ["Emil", "Tobias", "Linus"];
+var children = girls + boys ;
+document.getElementById("demo").innerHTML = children;
+</script>
+
+</body>
+</html>
