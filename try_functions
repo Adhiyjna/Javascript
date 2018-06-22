@@ -1,0 +1,56 @@
+//call a function
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World!";
+}
+
+myFunction();
+</script>
+
+</body>
+</html>
+
+//function returning a value
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World!";
+}
+myFunction();
+</script>
+
+</body>
+</html>
+
+
+//display using javascript function
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+function myFunction(name) {
+    return "Hello " + "John";
+}
+
+document.getElementById("demo").innerHTML=myFunction(name);
+
+</script>
+
+</body>
+</html>
