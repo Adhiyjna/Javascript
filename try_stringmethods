@@ -1,0 +1,61 @@
+//first_occurance of words
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var txt = "Hello World";
+document.getElementById("demo").innerHTML = txt.indexOf("World");
+</script>
+
+</body>
+</html>
+
+//using methods
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var str = "Apple,Banana,Kiwi";
+document.getElementById("demo").innerHTML = str.slice(6);
+</script>
+
+</body>
+</html>
+
+//uppercase
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var txt = "Hello World";
+document.getElementById("demo").innerHTML = txt.toUpperCase();
+</script>
+
+</body>
+</html>
+
+//lowercase
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var txt = "Hello World";
+document.getElementById("demo").innerHTML = txt.toLowerCase();
+</script>
+
+</body>
+</html>
