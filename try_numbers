@@ -1,0 +1,68 @@
+//display
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+
+var myNumber=50;
+document.getElementById("demo").innerHTML=myNumber;
+</script>
+
+</body>
+</html>
+
+// sum of two didgits
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 5;
+var y = 6;
+var z = x + y;
+document.getElementById("demo").innerHTML = z;
+</script>
+
+</body>
+</html>
+
+//division of number 
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 50;
+x/=3;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+
+//multplication of number
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+
+var x = 8;
+var y = 5;
+
+document.getElementById("demo").innerHTML=x*y;
+</script>
+
+</body>
+</html>
