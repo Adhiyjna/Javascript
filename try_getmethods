@@ -1,0 +1,24 @@
+//using get month
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript getMonth()</h2>
+
+<p>The getMonth() method returns the month of a date as a number (0-11):</p>
+
+<p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d.getMonth();
+</script>
+
+</body>
+</html>
+
+//using SET_METHODS
+
+
+
