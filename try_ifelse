@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Display "Good day!" if the hour is less than 18:00:</p>
+
+<p id="demo">Good Evening!</p>
+
+<script>
+if (new Date().getHours() < 16) {
+    document.getElementById("demo").innerHTML = "Good day!";
+}
+
+else{
+     document.getElementById("demo").innerHTML  = "Final Day ";
+     }
+</script>
+
+</body>
+</html>
+
+//some another example.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+if (5 > 2) {
+    document.getElementById("demo").innerHTML = "Well done!";
+}
+</script>
+
+</body>
+</html>
+
+//using if condition
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+
+if( 10 > 5)
+{
+	document.getElementById("demo").innerHTML = "I did it";
+}
+</script>
+
+</body>
+</html>
+
+//if-else
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+var firstName = "Greg";
+
+if (firstName === "John") {
+    document.getElementById("demo").innerHTML = "Hello John!";
+}
+else
+{
+document.getElementById("demo").innerHTML ="You're not John";
+}
+</script>
+
+</body>
+</html>
