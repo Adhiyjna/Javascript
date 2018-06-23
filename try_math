@@ -1,0 +1,45 @@
+//math randoms
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+
+document.getElementById("demo").innerHTML=Math.random();
+</script>
+
+</body>
+</html>
+
+
+//maximum
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+document.getElementById("demo").innerHTML = Math.max(0, 150, 30, 20, -8);
+</script>
+
+</body>
+</html>
+
+//sqrt
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+document.getElementById("demo").innerHTML = Math.sqrt(9);
+</script>
+
+</body>
+</html>
+
