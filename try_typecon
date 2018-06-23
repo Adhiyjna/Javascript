@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The JavaScript typeof Operator</h2>
+
+<p>The typeof operator returns the type of a variable, object, function or expression.</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 
+    typeof "prabhat" + "<br>" +
+    typeof 10.0 + "<br>" +
+    typeof NaN + "<br>" +
+    typeof false + "<br>" +
+    typeof [1,2,3,4] + "<br>" +
+    typeof {name:'john', age:34} + "<br>" +
+    typeof new Date() + "<br>" +
+    typeof function () {} + "<br>" +
+    typeof myCar + "<br>" +
+    typeof null;
+</script>
+
+</body>
+</html>
+
+
+//usign constructor
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The JavaScript constructor Property</h2>
+
+<p>The constructor property returns the constructor function for a variable or an 
+object.</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 
+    "john".constructor + "<br>" +
+    "prabaht".constructor + "<br>" + 
+    (3.14).constructor + "<br>" +
+    ( 10 ).constructor + " <br>" +
+    false.constructor + "<br>" +
+    true.constructor + "<br>" +
+    [1,2,3,4].constructor + "<br>" +
+    {name:'john', age:34}.constructor + "<br>" +
+    new Date().constructor + "<br>" +
+    function () {}.constructor;
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Date Object</h2>
+<p>This "home made" isDate() function returns true when used on an date:</p>
+
+<p id="demo"></p>
+
+<script>
+var myDate = new Date();
+document.getElementById("demo").innerHTML = isDate(myDate);
+document.getElementById("demo").innerHTML = Date(yourdate);
+
+function isDate(myDate) {
+    return myDate.constructor === Date;
+}
+function Date(yourdate) 
+{
+	return Date.constructor === Date;
+}
+</script>
+
+</body>
+</html>
