@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+
+document.getElementById("demo").innerHTML=new.date();
+
+</script>
+
+</body>
+</html>
+
+// for displaying  specific date
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+document.getElementById("demo").innerHTML = new.Date("January 10,2015 10:00:00");
+</script>
+
+</body>
+</html>
+//more specifc date
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = new Date().toDateString();
+</script>
+
+</body>
+</html>
